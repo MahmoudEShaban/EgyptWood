@@ -140,3 +140,21 @@ Stack trace:
 #4 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
 #5 C:\MAMP\htdocs\EgyptWood\wp-incl in C:\MAMP\htdocs\EgyptWood\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php on line 115
 
+2021-09-02T14:49:28+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\MAMP\htdocs\EgyptWood\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php:115
+Stack trace:
+#0 C:\MAMP\htdocs\EgyptWood\wp-includes\widgets.php(1224): AmbientElatedClassWoocommerceDropdownCart->widget(Array, Array)
+#1 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(520): the_widget('AmbientElatedCl...', Array)
+#2 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(490): WP_REST_Widget_Types_Controller->get_widget_preview('AmbientElatedCl...', Array)
+#3 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#4 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#5 C:\MAMP\htdocs\EgyptWood\wp-incl in C:\MAMP\htdocs\EgyptWood\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php on line 115
+
+2021-09-02T14:49:28+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\MAMP\htdocs\EgyptWood\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php:115
+Stack trace:
+#0 C:\MAMP\htdocs\EgyptWood\wp-includes\widgets.php(1224): AmbientElatedClassWoocommerceDropdownCart->widget(Array, Array)
+#1 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(520): the_widget('AmbientElatedCl...', Array)
+#2 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\endpoints\class-wp-rest-widget-types-controller.php(490): WP_REST_Widget_Types_Controller->get_widget_preview('AmbientElatedCl...', Array)
+#3 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#4 C:\MAMP\htdocs\EgyptWood\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp/v2/widget-t...', Array, NULL)
+#5 C:\MAMP\htdocs\EgyptWood\wp-incl in C:\MAMP\htdocs\EgyptWood\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php on line 115
+
