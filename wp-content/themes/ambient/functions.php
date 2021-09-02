@@ -873,3 +873,4 @@ function getAllChildCategoriesIds($cat_id, $params) {
 
 	return $categoriesIds;
 }
+
