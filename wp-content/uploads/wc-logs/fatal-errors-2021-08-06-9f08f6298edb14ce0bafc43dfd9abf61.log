@@ -1,9 +1,0 @@
-2021-08-06T18:01:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wordpress\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php:115
-Stack trace:
-#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-widget.php(393): AmbientElatedClassWoocommerceDropdownCart->widget(Array, Array)
-#1 C:\xampp\htdocs\wordpress\wp-includes\widgets.php(1977): WP_Widget->display_callback(Array, Array)
-#2 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widgets-controller.php(630): wp_render_widget('eltdf_woocommer...', 'search-cart-sid...')
-#3 C:\xampp\htdocs\wordpress\wp-includes\rest-api\endpoints\class-wp-rest-widgets-controller.php(122): WP_REST_Widgets_Controller->prepare_item_for_response(Array, Object(WP_REST_Request))
-#4 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): WP_REST_Widgets_Controller->get_items(Object(WP_REST_Request))
-#5 C:\xampp\htdocs\wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Ser in C:\xampp\htdocs\wordpress\wp-content\themes\ambient\framework\modules\woocommerce\widgets\woocommerce-dropdown-cart.php on line 115
-
